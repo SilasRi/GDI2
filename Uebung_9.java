@@ -31,7 +31,7 @@ public class Uebung_9 extends Application {
 		h1.getStyleClass().add("hbox");
 
 		Region r1 = new Region();
-		r1.getStyleClass().add("hbox");
+		r1.getStyleClass().add("region");
 
 		Label l1 = new Label("Operand 1");
 		Label l2 = new Label("Operand 2");
@@ -65,7 +65,7 @@ public class Uebung_9 extends Application {
 		Scene scene1 = new Scene(g1);
 		scene1.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
 		primaryStage.setScene(scene1);
-		primaryStage.setTitle("Übung 8 - Aufgabe 2");
+		primaryStage.setTitle("Ãœbung 8 - Aufgabe 2");
 		primaryStage.show();
 	}
 
